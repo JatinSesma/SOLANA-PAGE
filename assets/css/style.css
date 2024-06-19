@@ -507,6 +507,17 @@ ul {
     margin-bottom: 7px;
 }
 
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: #FFF03F;
+}
+.accordion-flush>.accordion-item {
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
