@@ -16,7 +16,7 @@
 }
 
 .navlist a {
-    font-size: 18px;
+    font-size: var(--fs_18);
     font-weight: 400;
     line-height: 32px;
     font-family: 'poppins';
@@ -161,7 +161,7 @@ ul {
 
 .welcome {
     font-family: 'poppins', sans-serif;
-    font-size: 36px;
+    font-size: var(--fs_xl);
     font-weight: 700;
     line-height: 54px;
     letter-spacing: 0em;
@@ -199,13 +199,13 @@ ul {
 }
 
 .fs-48 {
-    font-size: 48px;
+    font-size: var(--fs_48);
 }
 
 .welc-font {
     color: var(--black);
     font-family: 'Poppins', sans-serif;
-    font-size: 36px;
+    font-size: var(--fs_xl);
     text-align: center;
     font-style: normal;
     font-weight: 700;
@@ -276,7 +276,7 @@ ul {
 .h2-font {
     color: var(--black);
     font-family: 'Poppins', sans-serif;
-    font-size: 48px;
+    font-size: var(--fs_48);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -285,7 +285,7 @@ ul {
 .p2-font {
     color: var(--black);
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: var(--fs_18);
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
@@ -314,7 +314,7 @@ ul {
     color: var(--White, #FFF);
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 48px;
+    font-size: var(--fs_48);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -324,7 +324,7 @@ ul {
     color: var(--White, #FFF);
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: var(--fs_18);
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
@@ -344,7 +344,7 @@ ul {
     color: var(--black);
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: var(--fs_18);
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
@@ -448,7 +448,7 @@ ul {
     color: var(--black);
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: var(--fs_18);
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
@@ -476,7 +476,7 @@ ul {
     color: var(--black4);
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: var(--fs_18);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -485,7 +485,7 @@ ul {
 .footer-para {
     color: var(--black);
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: var(--fs_18);
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
@@ -733,7 +733,7 @@ ul {
     .cont-p-font {
         color: var(--black);
         font-family: 'Poppins', sans-serif;
-        font-size: 18px !important;
+        font-size: var(--fs_18) !important;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
