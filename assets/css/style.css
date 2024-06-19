@@ -497,6 +497,12 @@ ul {
     background-color: #FFF03F;
 }
 
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color) !important;
+    background-color: #FFF03F !important  ;
+    
+}
 .accordion {
     --bs-accordion-btn-focus-border-color: none;
     --bs-accordion-btn-focus-box-shadow: none;
@@ -510,7 +516,7 @@ ul {
 .accordion-button:focus {
     z-index: 3;
     outline: 0;
-    box-shadow: #FFF03F;
+    box-shadow: var(--bs-accordion-border-color) !important;
 }
 .accordion-flush>.accordion-item {
     border-bottom: 0;
