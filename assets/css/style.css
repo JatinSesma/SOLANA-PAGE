@@ -224,8 +224,8 @@ ul {
 }
 
 .btn-2:hover {
-    background: var(--White);
-    color: var(--red, #F4241E);
+    background-color: var(--black) !important;
+    color: var(--white);
 }
 
 .ROWSCNDBURGERSCND {
