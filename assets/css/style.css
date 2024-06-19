@@ -591,6 +591,10 @@ ul {
     border-radius: 6px;
 }
 
+.pb-44{
+    padding-bottom: 44px;
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media (max-width: 992px) {
 
@@ -680,6 +684,11 @@ ul {
     .mb-sm-48{
         margin-bottom: 48px;
     }
+
+    .footer-img {
+        width: 300px;
+        height: 104px;
+    }
 }
 
 @media (min-width:576px) {
@@ -730,13 +739,3 @@ ul {
     }
 
 }
-
-/* @media (min-width:576px) {
-    .md-d-unset {
-        display: unset;
-    }
-} */
-
-/* @media (max-width:991.1px) {
- 
-} */
