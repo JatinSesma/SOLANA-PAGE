@@ -8,3 +8,8 @@ menuToggle.addEventListener("change", function () {
         navbarItems.classList.remove("show");
     }
 });
+
+
+
+
+setTimeout(a,b)
